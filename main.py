@@ -39,6 +39,8 @@ if uploaded_file:
         "Content-Type": "application/octet-stream",
     }
 
+    #Hi this is just a testing for git
+
     try:
         response = requests.post(AZURE_API_URL, headers=headers, params=PARAMS, data=image_data)
         response.raise_for_status()
