@@ -40,6 +40,7 @@ if uploaded_file:
     }
 
     #Hi this is just a testing for git
+    #This is my second commit
 
     try:
         response = requests.post(AZURE_API_URL, headers=headers, params=PARAMS, data=image_data)
